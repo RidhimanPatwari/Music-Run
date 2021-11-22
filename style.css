@@ -1,0 +1,32 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+  z-index: 3;
+}
+
+
+#playButton {
+  display: block;
+  z-index: 2;
+  border-radius: 500px;
+  width: 138px;
+  height: 138px;
+  position: absolute;
+  left: 531px;
+  top: 564.3px;
+  opacity: 0;
+}
+
+#jumpButton {
+  display: block;
+  z-index: 1;
+  width: 1200px;
+  height: 800px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  opacity: 0;
+}
