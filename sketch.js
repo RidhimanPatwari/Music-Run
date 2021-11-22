@@ -32,14 +32,14 @@ var fireworks1, fireworks2, fireworks3, fireworks4, fireworksImage;
 var winBg, endBgImage;
 
 function preload() {
-  playButtonImage = loadImage("images/play_button.png");
-  homepageImage = loadImage("images/homepage.png");
-  obstacleImage = loadImage("images/obstacle.png");
-  blockImage = loadImage("images/block.png");
+  playButtonImage = loadImage("play_button.png");
+  homepageImage = loadImage("homepage.png");
+  obstacleImage = loadImage("obstacle.png");
+  blockImage = loadImage("block.png");
   bgSong = loadSound("music run song.wav");
-  fireworksImage = loadImage("images/fireworks.png");
-  winBg = loadImage("images/WinBg.png");
-  endBgImage = loadImage("images/EndBg.png");
+  fireworksImage = loadImage("fireworks.png");
+  winBg = loadImage("WinBg.png");
+  endBgImage = loadImage("EndBg.png");
   deathNoise = loadSound("death noise.wav")
   yay = loadSound("yay.wav");
 }
