@@ -11,7 +11,7 @@ class Block {
         this.width = 100;
         this.height = 100;
         this.body = Bodies.rectangle(this.x, this.y, this.width, this.height, options);
-        this.image = loadImage("images/block.png");
+        this.image = loadImage("block.png");
         World.add(world, this.body);
     }
 
