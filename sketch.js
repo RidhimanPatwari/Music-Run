@@ -247,7 +247,7 @@ function draw() {
     }
 
     if (keyDown("SPACE") || keyDown("UP_ARROW")) {
-      if (gameState === "play" && (player.body.position.y > 500 || invisPlayerSprite.isTouching(blockSprite1) || invisPlayerSprite.isTouching(blockSprite2))) {
+      if (gameState === "play" && (player.body.position.y > 530 || invisPlayerSprite.isTouching(blockSprite1) || invisPlayerSprite.isTouching(blockSprite2))) {
         Matter.Body.applyForce(player.body, player.body.position, {x: 0, y: -0.2});
         Matter.Body.applyForce(player.body, player.body.position, {x: 0, y: 0.01});
         //Matter.Body.applyForce(invisPlayerBody.body, invisPlayerBody.body.position, {x: 0, y: -0.2}); 
